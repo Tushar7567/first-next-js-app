@@ -5,7 +5,7 @@ const AboutPage = () => {
     <div>
         <h2>AboutPage</h2>
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quod quos, ipsam voluptatum odio officiis inventore atque harum voluptates voluptas numquam perferendis aspernatur rem delectus! Modi aliquid fugit ipsam maiores.
+            Lorem ipsum dolor sit, amet consectetu elit. Eveniet quod quos, ipsam voluptatum odio officiis inventore atque harum voluptates voluptas numquam perferendis aspernatur rem delectus! Modi aliquid fugit ipsam maiores.
 
         </p>
 
