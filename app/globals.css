@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    height: 130px;
+    width: auto;
+    text-align: center;
+    padding: 20px 0;
+    background-color: blue;
+    color: white;
+}
+a{
+    /* background-color: white; */
+    color: inherit;
+    text-decoration: none;
+}
+.links a{
+    margin-right: 35px;
+}
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: rgb(121, 196, 221);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .card{
+    height: calc(max-content + 200px);
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: rgb(204, 204, 202); */
+
+  }
+
+  .card-items{
+    margin-bottom: 20px;
+    padding: 0 30px;
+    color: black;
+    background-color: rgb(204, 204, 202);
+    border-radius: 15px;
+  }
+
